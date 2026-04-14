@@ -1,0 +1,26 @@
+{
+  "name": "scissor_11100",
+  "category": "scissor",
+  "object_id": "11100",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/scissor/11100",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    -0.30940883502641064,
+    0.0006198229184634085,
+    0.021692000329494476
+  ],
+  "axis_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "start_value": 40.0,
+  "end_value": 0.0,
+  "relative_delta": -40.0
+}

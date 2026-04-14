@@ -1,0 +1,26 @@
+{
+  "name": "washer_103776",
+  "category": "washer",
+  "object_id": "103776",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/washer/103776",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    0.0,
+    0.1994985763728603,
+    0.5355253180113568
+  ],
+  "axis_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "start_value": -30.0,
+  "end_value": -60.0,
+  "relative_delta": -30.0
+}

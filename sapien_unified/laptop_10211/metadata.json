@@ -1,0 +1,26 @@
+{
+  "name": "laptop_10211",
+  "category": "laptop",
+  "object_id": "10211",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/laptop/10211",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    0.0,
+    0.24714714808389615,
+    -0.007706040424053753
+  ],
+  "axis_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "start_value": 20.0,
+  "end_value": -20.0,
+  "relative_delta": -40.0
+}

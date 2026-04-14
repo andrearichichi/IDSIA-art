@@ -1,0 +1,26 @@
+{
+  "name": "oven_101917",
+  "category": "oven",
+  "object_id": "101917",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/oven/101917",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    -0.6382359999999996,
+    -0.41942801523467216,
+    -0.442321324292263
+  ],
+  "axis_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "start_value": 65.0,
+  "end_value": 35.0,
+  "relative_delta": -30.0
+}

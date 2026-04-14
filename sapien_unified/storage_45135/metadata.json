@@ -1,0 +1,26 @@
+{
+  "name": "storage_45135",
+  "category": "storage",
+  "object_id": "45135",
+  "joint_type": "prismatic",
+  "motion_type": "translate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/storage/45135",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    -0.014597692446928129,
+    -0.3823210000991819,
+    0.1355939233316917
+  ],
+  "axis_direction": [
+    0.0,
+    -1.0,
+    0.0
+  ],
+  "start_value": 0.3,
+  "end_value": 0.6,
+  "relative_delta": 0.3
+}

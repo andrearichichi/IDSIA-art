@@ -1,0 +1,26 @@
+{
+  "name": "blade_103706",
+  "category": "blade",
+  "object_id": "103706",
+  "joint_type": "prismatic",
+  "motion_type": "translate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/blade/103706",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "axis_direction": [
+    0.0,
+    -1.0,
+    0.0
+  ],
+  "start_value": 0.35,
+  "end_value": 0.15,
+  "relative_delta": -0.19999999999999998
+}

@@ -1,0 +1,26 @@
+{
+  "name": "USB_100109",
+  "category": "USB",
+  "object_id": "100109",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/USB/100109",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    -0.2405585040450098,
+    0.3870803675651547,
+    0.0
+  ],
+  "axis_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "start_value": 0.0,
+  "end_value": -45.0,
+  "relative_delta": -45.0
+}

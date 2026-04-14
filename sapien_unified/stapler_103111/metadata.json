@@ -1,0 +1,26 @@
+{
+  "name": "stapler_103111",
+  "category": "stapler",
+  "object_id": "103111",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/stapler/103111",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    0.0,
+    0.752066445189761,
+    0.10500870623151695
+  ],
+  "axis_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "start_value": 0.0,
+  "end_value": -40.0,
+  "relative_delta": -40.0
+}

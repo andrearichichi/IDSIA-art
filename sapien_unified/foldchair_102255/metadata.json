@@ -1,0 +1,26 @@
+{
+  "name": "foldchair_102255",
+  "category": "foldchair",
+  "object_id": "102255",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/foldchair/102255",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    0.0,
+    -0.012001708019524805,
+    0.007995042324631685
+  ],
+  "axis_direction": [
+    1.0,
+    0.0,
+    0.0
+  ],
+  "start_value": 0.0,
+  "end_value": -80.0,
+  "relative_delta": -80.0
+}

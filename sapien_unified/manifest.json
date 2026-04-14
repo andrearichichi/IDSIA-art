@@ -1,0 +1,68 @@
+{
+  "counts": {
+    "revolute": 8,
+    "prismatic": 2
+  },
+  "objects": [
+    {
+      "name": "USB_100109",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/USB_100109",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/USB_100109/mobility.urdf"
+    },
+    {
+      "name": "blade_103706",
+      "joint_type": "prismatic",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/blade_103706",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/blade_103706/mobility.urdf"
+    },
+    {
+      "name": "foldchair_102255",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/foldchair_102255",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/foldchair_102255/mobility.urdf"
+    },
+    {
+      "name": "fridge_10905",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/fridge_10905",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/fridge_10905/mobility.urdf"
+    },
+    {
+      "name": "laptop_10211",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/laptop_10211",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/laptop_10211/mobility.urdf"
+    },
+    {
+      "name": "oven_101917",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/oven_101917",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/oven_101917/mobility.urdf"
+    },
+    {
+      "name": "scissor_11100",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/scissor_11100",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/scissor_11100/mobility.urdf"
+    },
+    {
+      "name": "stapler_103111",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/stapler_103111",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/stapler_103111/mobility.urdf"
+    },
+    {
+      "name": "storage_45135",
+      "joint_type": "prismatic",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/storage_45135",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/storage_45135/mobility.urdf"
+    },
+    {
+      "name": "washer_103776",
+      "joint_type": "revolute",
+      "object_dir": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/washer_103776",
+      "urdf_path": "/Users/andrearichichi/IDSIA-REARTgs/generated_urdfs/sapien_unified/washer_103776/mobility.urdf"
+    }
+  ]
+}

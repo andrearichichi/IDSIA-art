@@ -1,0 +1,26 @@
+{
+  "name": "fridge_10905",
+  "category": "fridge",
+  "object_id": "10905",
+  "joint_type": "revolute",
+  "motion_type": "rotate",
+  "source_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/fridge/10905",
+  "mesh_dir": "meshes",
+  "mesh_files": {
+    "base_link": "base_link.obj",
+    "moving_link": "moving_link.obj"
+  },
+  "axis_origin": [
+    0.2269176666855262,
+    -0.1669124355111414,
+    0.456948
+  ],
+  "axis_direction": [
+    0.0,
+    0.0,
+    1.0
+  ],
+  "start_value": 0.0,
+  "end_value": -60.0,
+  "relative_delta": -60.0
+}
