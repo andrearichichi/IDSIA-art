@@ -1,0 +1,27 @@
+{
+  "robot_name": "USB_100109",
+  "source_object_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/USB/100109/textured_objs",
+  "reference_pose": "start",
+  "reference_angle_deg": 0.0,
+  "dataset_angles_deg": {
+    "start": 0.0,
+    "end": -45.0
+  },
+  "joint": {
+    "type": "rotate",
+    "origin_xyz_object_frame": [
+      -0.2405585040450098,
+      0.3870803675651547,
+      0.0
+    ],
+    "axis_xyz_object_frame": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "lower_limit_deg_relative_to_reference": -45.0,
+    "upper_limit_deg_relative_to_reference": 0.0
+  },
+  "mesh_frame": "Generated meshes use the dataset *_rotate convention. The moving mesh is expressed in the joint frame.",
+  "inertial_note": "Mass and inertia are approximated from per-link AABBs."
+}

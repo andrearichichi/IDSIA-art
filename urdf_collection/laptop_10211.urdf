@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot name="laptop_10211">
+  <!-- Meshes come from the dataset *_rotate exports, which share the joint frame. -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/laptop_10211_base.obj"/>
+      </geometry>
+      <material name="steel_grey">
+        <color rgba="0.70 0.70 0.72 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/laptop_10211_base.obj"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.061970155 -0.004025565 0.005842246" rpy="0 0 0"/>
+      <mass value="0.086894075"/>
+      <inertia ixx="0.003838389" ixy="0.000000000" ixz="0.000000000" iyy="0.008297129" iyz="0.000000000" izz="0.012105522"/>
+    </inertial>
+  </link>
+
+  <link name="moving_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/laptop_10211_moving.obj"/>
+      </geometry>
+      <material name="handle_orange">
+        <color rgba="0.93 0.47 0.16 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/laptop_10211_moving.obj"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.093822197 0.144149930 0.161506958" rpy="0 0 0"/>
+      <mass value="0.013105925"/>
+      <inertia ixx="0.000603119" ixy="0.000000000" ixz="0.000000000" iyy="0.001638881" iyz="0.000000000" izz="0.001462567"/>
+    </inertial>
+  </link>
+
+  <joint name="scissor_hinge" type="revolute">
+    <origin xyz="0.000000000 0.247147148 -0.007706040" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="moving_link"/>
+    <axis xyz="1.000000000 0.000000000 0.000000000"/>
+    <limit lower="0.000000000" upper="0.698131701" effort="5.0" velocity="4.0"/>
+    <dynamics damping="0.05" friction="0.02"/>
+  </joint>
+</robot>

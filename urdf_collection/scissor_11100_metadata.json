@@ -1,0 +1,27 @@
+{
+  "robot_name": "scissor_11100",
+  "source_object_dir": "/Users/andrearichichi/IDSIA-REARTgs/Dataset/data/sapien/scissor/11100/textured_objs",
+  "reference_pose": "end",
+  "reference_angle_deg": 0.0,
+  "dataset_angles_deg": {
+    "start": 40.0,
+    "end": 0.0
+  },
+  "joint": {
+    "type": "rotate",
+    "origin_xyz_object_frame": [
+      -0.30940883502641064,
+      0.0006198229184634085,
+      0.021692000329494476
+    ],
+    "axis_xyz_object_frame": [
+      0.0,
+      0.0,
+      1.0
+    ],
+    "lower_limit_deg_relative_to_reference": 0.0,
+    "upper_limit_deg_relative_to_reference": 40.0
+  },
+  "mesh_frame": "Generated meshes use the dataset *_rotate convention. The moving mesh is expressed in the joint frame.",
+  "inertial_note": "Mass and inertia are approximated from per-link AABBs."
+}

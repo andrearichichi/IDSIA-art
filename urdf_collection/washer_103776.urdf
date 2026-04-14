@@ -1,0 +1,58 @@
+<?xml version="1.0"?>
+<robot name="washer_103776">
+  <!-- Meshes come from the dataset *_rotate exports, which share the joint frame. -->
+  <link name="base_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/washer_103776_base.obj"/>
+      </geometry>
+      <material name="steel_grey">
+        <color rgba="0.70 0.70 0.72 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/washer_103776_base.obj"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="-0.076111118 0.179864055 0.588812124" rpy="0 0 0"/>
+      <mass value="0.086121108"/>
+      <inertia ixx="0.022854012" ixy="0.000000000" ixz="0.000000000" iyy="0.021673923" iyz="0.000000000" izz="0.012654504"/>
+    </inertial>
+  </link>
+
+  <link name="moving_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/washer_103776_moving.obj"/>
+      </geometry>
+      <material name="handle_orange">
+        <color rgba="0.93 0.47 0.16 1.0"/>
+      </material>
+    </visual>
+    <collision>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="meshes/washer_103776_moving.obj"/>
+      </geometry>
+    </collision>
+    <inertial>
+      <origin xyz="0.008168793 -0.401396948 0.239962969" rpy="0 0 0"/>
+      <mass value="0.013878892"/>
+      <inertia ixx="0.000447000" ixy="0.000000000" ixz="0.000000000" iyy="0.000605883" iyz="0.000000000" izz="0.000814401"/>
+    </inertial>
+  </link>
+
+  <joint name="scissor_hinge" type="revolute">
+    <origin xyz="0.000000000 0.199498576 0.535525318" rpy="0 0 0"/>
+    <parent link="base_link"/>
+    <child link="moving_link"/>
+    <axis xyz="1.000000000 0.000000000 0.000000000"/>
+    <limit lower="-0.523598776" upper="0.000000000" effort="5.0" velocity="4.0"/>
+    <dynamics damping="0.05" friction="0.02"/>
+  </joint>
+</robot>
